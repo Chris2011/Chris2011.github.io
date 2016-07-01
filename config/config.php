@@ -19,14 +19,14 @@
 /*
  * BASIC
  */
-// $config['site_title'] = 'Pico';              // Site title
+$config['site_title'] = 'Chrizzly.info';              // Site title
 // $config['base_url'] = '';                    // Override base URL (e.g. http://example.com)
 // $config['rewrite_url'] = null;               // A boolean indicating forced URL rewriting
 
 /*
  * THEME
  */
- $config['theme'] = 'ocean';                // Set the theme (defaults to "default")
+$config['theme'] = 'ocean';                // Set the theme (defaults to "default")
 // $config['twig_config'] = array(              // Twig settings
 //     'cache' => false,                        // To enable Twig caching change this to a path to a writable directory
 //     'autoescape' => false,                   // Auto-escape Twig vars
