@@ -65,6 +65,20 @@
         
         window.requestAnimationFrame(step);
     };
+    
+    [].slice.call(document.querySelectorAll('.ripple-btn')).forEach(function(btn) {
+       btn.addEventListener('click', function(event) {
+          var ripple = btn.querySelector('.ripple');
+
+          ripple.style.top = (event.layerY + 'px');
+          ripple.style.left = (event.layerX + 'px');
+          ripple.style.animation = 'ripple-anim 400ms 1';
+
+          setTimeout(function() {
+              ripple.style.animation = '';
+          }, 400);
+       }, true);
+    });
 
     burgerMenu.addEventListener('click', function () {
         if (body.className.indexOf('active') === -1) {
