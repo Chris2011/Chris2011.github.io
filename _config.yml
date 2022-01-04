@@ -28,6 +28,7 @@ color:
   primary: 18bc9c #80B3FF
   primary-rgb: "24,288,156" #"128,179,255"
   secondary: 2c3e50 #FD6E8A
+  secondary-rgb: "44, 62, 80" 
   secondary-dark: 233140 #A2122F
 
 # Footer settings
@@ -46,7 +47,7 @@ social:
   - title: stack-overflow
     url: https://stackoverflow.com/users/8188189/chrizzly
   - title: github
-    url: http://github.com/Chris2011
+    url: https://github.com/Chris2011
 
 # Postal address (add as many lines as necessary)
 address:
