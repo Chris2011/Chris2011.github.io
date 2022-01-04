@@ -490,5 +490,5 @@ header .img-responsive {
 }
 
 #about {
-  background-color: rgba({{ site.color.secondary-rgb }},.5);
+  background-color: rgba({{ site.color.secondary-rgb }},.7);
 }
